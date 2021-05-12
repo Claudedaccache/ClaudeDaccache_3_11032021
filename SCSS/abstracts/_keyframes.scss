@@ -1,0 +1,105 @@
+@import "../abstracts/variables";
+
+@keyframes menuanimation {
+  0% {
+    transform: translateY(-250%);
+    opacity: 0;
+  }
+  50%,
+  70% {
+    opacity: 0;
+  }
+  70%,
+  95% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+@keyframes btn_color {
+  100% {
+    background: linear-gradient(
+      (lighten($secondarycolor, 5%)) 0%,
+      (lighten($primarycolor, 5%)) 100%
+    );
+  }
+}
+
+@keyframes color {
+  0% {
+    color: rgba(227, 93, 255, 1);
+    transform: scale(0);
+  }
+  25% {
+    color: rgba(239, 90, 254, 1);
+  }
+  50% {
+    color: rgba(166, 24, 255, 1);
+    transform: scale(1);
+  }
+  60% {
+    color: rgb(180, 70, 248);
+  }
+  75% {
+    color: rgb(205, 129, 252);
+    transform: scale(0);
+  }
+  90% {
+    color: rgb(224, 186, 248);
+  }
+  100% {
+    color: white;
+    transform: scale(1);
+  }
+}
+
+@keyframes spin {
+  50% {
+    transform: rotate(-360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes coloricon {
+  100% {
+    color: lighten($primarycolor, 5%);
+  }
+}
+
+@keyframes preloader_fading {
+  100% {
+    visibility: hidden;
+    opacity: 0;
+    z-index: -10000;
+  }
+}
+
+// @keyframes checked_fading {
+//   0% {
+//     opacity: 0.6;
+//     transform: translateX(-2.8rem);
+//   }
+//   100% {
+//     opacity: 1;
+//     transform: translateX(0.9rem);
+//   }
+// }
+
+@keyframes checked_rotation {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+// @keyframes checked_slide {
+//   0% {
+//     width: 77%;
+//   }
+// }

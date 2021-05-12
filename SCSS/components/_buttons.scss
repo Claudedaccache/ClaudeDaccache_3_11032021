@@ -1,0 +1,74 @@
+.exploration_btn {
+  background: linear-gradient($secondarycolor 0%, $primarycolor 100%);
+  padding: 0.8rem 1.2rem;
+  border-radius: 1.5rem;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.exploration_btn:hover {
+  animation: btn_color 0.3s ease-in-out forwards;
+  box-shadow: 0.1rem 0.1rem 0.5rem rgb(165, 165, 165);
+}
+
+.Menu_btn button {
+  background: linear-gradient($secondarycolor 0%, $primarycolor 100%);
+  padding: 1rem 3rem;
+  border-radius: 1.5rem;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.Menu_btn button:hover {
+  animation: btn_color 0.2s ease-in-out forwards;
+  box-shadow: 0.1rem 0.1rem 0.2rem rgb(165, 165, 165);
+}
+
+.Menu_icon {
+  position: relative;
+  cursor: pointer;
+}
+
+.Menu_icon .far {
+  position: relative;
+  color: black;
+  opacity: 0.8;
+}
+
+.Menu_icon .fas {
+  position: absolute;
+  left: 0;
+  top: 0.18rem;
+  color: transparent;
+}
+
+.Menu_icon .fas:hover {
+  animation: coloricon 0.8s ease-in-out forwards;
+}
+
+.Resto_comment_icon {
+  position: relative;
+  cursor: pointer;
+
+  & .far {
+    position: relative;
+    color: black;
+    opacity: 0.8;
+  }
+
+  & .fas {
+    position: absolute;
+    left: 0;
+    top: 0.1rem;
+    color: transparent;
+  }
+
+  & .fas:hover {
+    animation: coloricon 0.8s ease-in-out forwards;
+  }
+}

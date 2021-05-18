@@ -1,6 +1,6 @@
-@import '../abstracts/keyframes';
-  
-.preloader{
+@import "../abstracts/keyframes";
+
+.preloader {
   position: absolute;
   position: fixed;
   display: flex;
@@ -14,12 +14,11 @@
   animation: preloader_fading 3.5s step-end forwards;
 }
 
-
-.loader{
+.loader {
   position: relative;
 }
 
-.loader_inner1{
+.loader_inner1 {
   display: inline-block;
   width: 3rem;
   height: 3rem;
@@ -27,13 +26,12 @@
   border-radius: 50%;
   background-color: transparent;
   position: relative;
-  border-right-color:white;
+  border-right-color: white;
   border-left-color: white;
   animation: spin 2.5s ease-in-out infinite;
-  
 }
 
-.loader_inner2{
+.loader_inner2 {
   position: absolute;
   left: 0.5rem;
   top: 0.5rem;
@@ -43,40 +41,62 @@
   border: 0.2rem solid transparent;
   border-radius: 50%;
   background-color: transparent;
-  border-top-color:white;
+  border-top-color: white;
   border-bottom-color: white;
-  animation: spin 2.5s ease-in-out infinite;  
+  animation: spin 2.5s ease-in-out infinite;
 }
 
-.the_loader_text{
+.the_loader_text {
   display: flex;
   flex-direction: row;
 }
 
-.loader_text:nth-child(1){animation-delay: 0.4s;}
-.loader_text:nth-child(2){animation-delay: 0.16s;}
-.loader_text:nth-child(3){animation-delay: 0.12s;}
-.loader_text:nth-child(4){animation-delay: 0.16s;}
-.loader_text:nth-child(5){animation-delay: 0.20s;}
-.loader_text:nth-child(6){animation-delay: 0.24s;}
-.loader_text:nth-child(7){animation-delay: 0.28s;}
-.loader_text:nth-child(8){animation-delay: 0.32s;}
-.loader_text:nth-child(9){animation-delay: 0.36s;}
-.loader_text:nth-child(10){animation-delay: 0.40s;}
-.loader_text:nth-child(11){animation-delay: 0.40s;}
-.loader_text:nth-child(12){animation-delay: 0.44s;}
-.loader_text:nth-child(13){animation-delay: 0.48s;}
-
-
-
-.loader_text{
-
+.loader_text {
   margin-top: 2rem;
-  font-family: 'Shrikhand', cursive;
+  font-family: "Shrikhand", cursive;
   font-size: 1.5rem;
   color: white;
   display: inline-block;
   animation: color 3s ease-in-out forwards;
   transform: scale(1);
+}
 
+.loader_text:nth-child(1) {
+  animation-delay: 0.4s;
+}
+.loader_text:nth-child(2) {
+  animation-delay: 0.16s;
+}
+.loader_text:nth-child(3) {
+  animation-delay: 0.12s;
+}
+.loader_text:nth-child(4) {
+  animation-delay: 0.16s;
+}
+.loader_text:nth-child(5) {
+  animation-delay: 0.2s;
+}
+.loader_text:nth-child(6) {
+  animation-delay: 0.24s;
+}
+.loader_text:nth-child(7) {
+  animation-delay: 0.28s;
+}
+.loader_text:nth-child(8) {
+  animation-delay: 0.32s;
+}
+.loader_text:nth-child(9) {
+  animation-delay: 0.36s;
+}
+.loader_text:nth-child(10) {
+  animation-delay: 0.4s;
+}
+.loader_text:nth-child(11) {
+  animation-delay: 0.4s;
+}
+.loader_text:nth-child(12) {
+  animation-delay: 0.44s;
+}
+.loader_text:nth-child(13) {
+  animation-delay: 0.48s;
 }

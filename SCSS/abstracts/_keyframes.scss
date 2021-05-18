@@ -78,17 +78,6 @@
   }
 }
 
-// @keyframes checked_fading {
-//   0% {
-//     opacity: 0.6;
-//     transform: translateX(-2.8rem);
-//   }
-//   100% {
-//     opacity: 1;
-//     transform: translateX(0.9rem);
-//   }
-// }
-
 @keyframes checked_rotation {
   0% {
     transform: rotate(360deg);
@@ -97,9 +86,3 @@
     transform: rotate(0);
   }
 }
-
-// @keyframes checked_slide {
-//   0% {
-//     width: 77%;
-//   }
-// }

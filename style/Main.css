@@ -196,8 +196,11 @@
   padding: 0;
 }
 
-p, h3, a {
-  font-family: 'Roboto', sans-serif;
+p,
+h3,
+h2,
+a {
+  font-family: "Roboto", sans-serif;
 }
 
 @keyframes menuanimation {
@@ -297,7 +300,6 @@ p, h3, a {
 }
 
 .preloader {
-  position: absolute;
   position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -477,9 +479,6 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -902,6 +901,7 @@ header {
 .exploration_btn {
   background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
   background: linear-gradient(#FF79DA 0%, #9356DC 100%);
+  background-clip: padding-box;
   padding: 0.8rem 1.2rem;
   border-radius: 1.5rem;
   color: white;

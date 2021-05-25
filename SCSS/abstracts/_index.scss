@@ -271,9 +271,7 @@
 
 .The_dish {
   font-family: "Roboto", sans-serif;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
+  @include ellipsis;
   flex: 1;
   font-size: 0.8rem;
   line-height: 1.4rem;
@@ -281,16 +279,12 @@
 
 .The_dish_name {
   margin: 0;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
+  @include ellipsis;
 }
 
 .The_dish_descr {
   margin: 0;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
+  @include ellipsis;
 }
 
 .The_dish_price {

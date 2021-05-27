@@ -582,16 +582,23 @@ header {
           box-shadow: 0rem 0rem 0.2rem #a7a5a5;
 }
 
-.pink {
+.functioning_step:hover {
   background-color: #e4d5f6;
 }
 
-#store_icon {
+.functioning_step:hover #store_icon,
+.functioning_step:hover #list_icon,
+.functioning_step:hover #mobile_icon {
   color: #9356DC;
   opacity: 1;
 }
 
+.functioning_text {
+  font-family: "Roboto", sans-serif;
+}
+
 .functioning_nbr {
+  font-family: "Roboto", sans-serif;
   position: absolute;
   left: -0.4rem;
   top: 1.2rem;
@@ -600,6 +607,7 @@ header {
   background-color: #9356DC;
   border-radius: 50%;
   color: white;
+  font-weight: lighter;
 }
 
 .functioning i {
@@ -609,7 +617,7 @@ header {
 #restaurants {
   margin: 2rem 0 0 0;
   width: 100%;
-  background-color: #e9e6e6;
+  background-color: #f7f7f7;
 }
 
 .Resto {
@@ -720,7 +728,7 @@ header {
 #The_Menu {
   margin-top: 16.3rem;
   padding: 1rem;
-  background-color: #e2e2e2;
+  background-color: #f7f7f7;
   border-radius: 2rem 2rem 0 0;
 }
 
@@ -760,6 +768,7 @@ header {
 }
 
 .menu_dishes_title {
+  font-size: 1.3rem;
   margin-bottom: 1.5rem;
   text-transform: uppercase;
   font-weight: normal;

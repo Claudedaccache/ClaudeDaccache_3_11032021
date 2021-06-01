@@ -581,6 +581,7 @@ header {
   position: relative;
   -webkit-box-shadow: 0rem 0rem 0.2rem #a7a5a5;
           box-shadow: 0rem 0rem 0.2rem #a7a5a5;
+  overflow: visible;
 }
 
 .functioning_step:hover {
@@ -628,7 +629,7 @@ header {
   -webkit-box-shadow: 1px 1px 5px #777575;
           box-shadow: 1px 1px 5px #777575;
   position: relative;
-  width: 40rem;
+  width: 41rem;
   height: 16rem;
   text-decoration: none;
   -webkit-transform: scale(1);

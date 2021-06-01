@@ -75,6 +75,7 @@
   max-width: 30rem;
   position: relative;
   box-shadow: 0rem 0rem 0.2rem rgb(167, 165, 165);
+  overflow: visible;
 }
 
 .functioning_step:hover {
@@ -123,7 +124,7 @@
   margin: 1rem auto;
   box-shadow: 1px 1px 5px rgb(119, 117, 117);
   position: relative;
-  width: 40rem;
+  width: 41rem;
   height: 16rem;
   text-decoration: none;
   transform: scale(1);

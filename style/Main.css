@@ -323,6 +323,7 @@ a {
 
 .loader {
   position: relative;
+  overflow: hidden;
 }
 
 .loader_inner1 {
@@ -610,6 +611,7 @@ header {
   border-radius: 50%;
   color: white;
   font-weight: lighter;
+  overflow: visible;
 }
 
 .functioning i {
